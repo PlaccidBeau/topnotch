@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("tiny"));
 
 app.get("/", (req, res) => {
-  res.send("Hello Hello");
+  res.render("home");
 });
 
 app.all("*", (req, res, next) => {
