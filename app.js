@@ -28,6 +28,60 @@ app.use(morgan("tiny"));
 app.get("/", (req, res) => {
   res.render("home");
 });
+// Breakfast
+app.get("/breakfast/meals", (req, res) => {
+  res.render("breakfast/meals");
+});
+app.get("/breakfast/eggs&toast", (req, res) => {
+  res.render("breakfast/eggs&toast");
+});
+app.get("/breakfast/omelets", (req, res) => {
+  res.render("breakfast/omelets");
+});
+app.get("/breakfast/sandwiches", (req, res) => {
+  res.render("breakfast/sandwiches");
+});
+
+// lunch and dinner
+app.get("/lunch&dinner/beefburgers", (req, res) => {
+  res.render("lunch&dinner/lunchanddinner");
+});
+app.get("/lunch&dinner/appetizers", (req, res) => {
+  res.render("lunch&dinner/appetizers");
+});
+app.get("/lunch&dinner/soup", (req, res) => {
+  res.render("lunch&dinner/soup");
+});
+app.get("/lunch&dinner/salads", (req, res) => {
+  res.render("lunch&dinner/salads");
+});
+app.get("/lunch&dinner/chicken", (req, res) => {
+  res.render("lunch&dinner/chicken");
+});
+app.get("/lunch&dinner/sandwiches", (req, res) => {
+  res.render("lunch&dinner/sandwiches");
+});
+app.get("/lunch&dinner/turkeyburgers", (req, res) => {
+  res.render("lunch&dinner/turkeyburgers");
+});
+app.get("/lunch&dinner/melts", (req, res) => {
+  res.render("lunch&dinner/melts");
+});
+app.get("/lunch&dinner/platters", (req, res) => {
+  res.render("lunch&dinner/platters");
+});
+app.get("/lunch&dinner/sides", (req, res) => {
+  res.render("lunch&dinner/sides");
+});
+// Beverages
+app.get("/beverages", (req, res) => {
+  res.render("beverages");
+});
+
+// Kids Menu
+app.get("/kidsmenu", (req, res) => {
+  res.render("KidsMenu/kidsmenu");
+});
 
 app.all("*", (req, res, next) => {
   const { statusCode = 500 } = err;
