@@ -1,0 +1,88 @@
+<% layout('layout/boilerplate') -%>
+<link
+  rel="stylesheet"
+  href="/stylesheets/styles.css"
+/>
+<div class="big-box">
+  <!-- Header -->
+  <%- include ('../partials/header.ejs') %>
+  <!-- Menu screen -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><br /></div>
+      <div class="col-3 sidebar rounded">
+        <!-- Navbar -->
+        <%- include ('../partials/navbar.ejs') %>
+      </div>
+      <!-- Menu page -->
+      <div class="col-9 menu-items">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4>Platters</h4>
+            <p>Served With Your Choice Of Soup Or Cole Slaw</p>
+          </div>
+          <div class="col-6 text-center">
+            <div class="food-item">
+              <h4>Hot Beef</h4>
+              <p>
+                bread with gravy served with your choice of mashed potatoes or
+                fries
+              </p>
+              <img
+                class="food-thumbnail"
+                src=""
+                alt=""
+              />
+            </div>
+            <div class="food-item">
+              <h4>Beef or Chicken Taco Salad</h4>
+              <p>
+                Lettuce Tomatoe, cheese, onions, tortilla chips, with a side of
+                salsa, guacamole, and sour cream
+              </p>
+              <img
+                class="food-thumbnail"
+                src=""
+                alt=""
+              />
+            </div>
+            <div class="food-item">
+              <h4>Grilled Catfish</h4>
+              <p>
+                Breaded and grilled with tartar sauce and lemon, served with
+                mashed potatoes and gravy or fries
+              </p>
+              <img
+                class="food-thumbnail"
+                src=""
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-6 text-center">
+            <div class="food-item">
+              <h4>Chicken Nuggets/Tenders</h4>
+              <p>Served with mashed potatoes or fries</p>
+              <img
+                class="food-thumbnail"
+                src=""
+                alt=""
+              />
+            </div>
+            <div class="food-item">
+              <h4>Hot Dog Platter</h4>
+              <p>Two hot dogs served with mashed potatoes or fries</p>
+              <img
+                class="food-thumbnail"
+                src=""
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer -->
+  <%- include ('../partials/footer.ejs') %>
+</div>

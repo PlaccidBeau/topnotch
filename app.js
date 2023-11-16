@@ -44,34 +44,34 @@ app.get("/breakfast/sandwiches", (req, res) => {
 
 // lunch and dinner
 app.get("/lunch&dinner/beefburgers", (req, res) => {
-  res.render("lunch&dinner/lunchanddinner");
+  res.render("lunchanddinner/lunchanddinner");
 });
 app.get("/lunch&dinner/appetizers", (req, res) => {
-  res.render("lunch&dinner/appetizers");
+  res.render("lunchanddinner/appetizers");
 });
 app.get("/lunch&dinner/soup", (req, res) => {
-  res.render("lunch&dinner/soup");
+  res.render("lunchanddinner/soup");
 });
 app.get("/lunch&dinner/salads", (req, res) => {
-  res.render("lunch&dinner/salads");
+  res.render("lunchanddinner/salads");
 });
 app.get("/lunch&dinner/chicken", (req, res) => {
-  res.render("lunch&dinner/chicken");
+  res.render("lunchanddinner/chicken");
 });
 app.get("/lunch&dinner/sandwiches", (req, res) => {
-  res.render("lunch&dinner/sandwiches");
+  res.render("lunchanddinner/sandwiches");
 });
 app.get("/lunch&dinner/turkeyburgers", (req, res) => {
-  res.render("lunch&dinner/turkeyburgers");
+  res.render("lunchanddinner/turkeyburgers");
 });
 app.get("/lunch&dinner/melts", (req, res) => {
-  res.render("lunch&dinner/melts");
+  res.render("lunchanddinner/melts");
 });
 app.get("/lunch&dinner/platters", (req, res) => {
-  res.render("lunch&dinner/platters");
+  res.render("lunchanddinner/platters");
 });
 app.get("/lunch&dinner/sides", (req, res) => {
-  res.render("lunch&dinner/sides");
+  res.render("lunchanddinner/sides");
 });
 // Beverages
 app.get("/beverages", (req, res) => {

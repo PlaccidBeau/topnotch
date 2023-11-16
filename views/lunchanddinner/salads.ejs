@@ -1,0 +1,84 @@
+<% layout('layout/boilerplate') -%>
+<link
+  rel="stylesheet"
+  href="/stylesheets/styles.css"
+/>
+<div class="big-box">
+  <!-- Header -->
+  <%- include ('../partials/header.ejs') %>
+  <!-- Menu screen -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><br /></div>
+      <div class="col-3 sidebar rounded">
+        <!-- Navbar -->
+        <%- include ('../partials/navbar.ejs') %>
+      </div>
+      <!-- Menu page -->
+      <div class="col-9 menu-items">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4>Salads</h4>
+            <p>
+              All salads come with your choice of Ramnch, Frnech, Italian, 1000
+              Island, or Greek Dressing
+            </p>
+          </div>
+          <div class="col-6 text-center">
+            <ul>
+              <li>Garden Salad</li>
+              <li>Grilled Chicken Salad</li>
+              <li>Cajun Chicken Salad</li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+          <div class="col-6 text-center">
+            <ul>
+              <li>Greek Salad</li>
+              <li>Greek Salad with Grilled Chicken</li>
+              <li>
+                Cottage Cheese Salad <br />
+                With Peaches or Tomatoes
+              </li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+          <div class="col-12 text-center">
+            <h4>Soups</h4>
+            <p>Ask Your Server For The Soup Of The Day</p>
+          </div>
+          <div class="col-6 text-center">
+            <ul>
+              <li>Homemade Soup</li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+          <div class="col-6 text-center">
+            <ul>
+              <li>Chili</li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer -->
+  <%- include ('../partials/footer.ejs') %>
+</div>

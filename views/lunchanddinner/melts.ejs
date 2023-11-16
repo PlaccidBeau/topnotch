@@ -1,0 +1,101 @@
+<% layout('layout/boilerplate') -%>
+<link
+  rel="stylesheet"
+  href="/stylesheets/styles.css"
+/>
+<div class="big-box">
+  <!-- Header -->
+  <%- include ('../partials/header.ejs') %>
+  <!-- Menu screen -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><br /></div>
+      <div class="col-3 sidebar rounded">
+        <!-- Navbar -->
+        <%- include ('../partials/navbar.ejs') %>
+      </div>
+      <!-- Menu page -->
+      <div class="col-9 menu-items">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4>Buttery-Rich Melts</h4>
+            <p>
+              All of the patty melts come with grilled onions, American cheese
+              on a buttered grilled rye bread
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <h4>Classic Patty Melt</h4>
+            <ul>
+              <li>5 oz. Beefburger Patty Melt</li>
+              <li>1/2 lb Beefburger Patty Melt</li>
+              <li>3/4 lb Beefburger Patty Melt</li>
+              <li>5 oz. lb Turkey Burger Melt</li>
+              <li>1/2 lb Turkey Burger Melt</li>
+              <li>3/4 lb Turkey Burger Melt</li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+          <div class="col-12 text-center">
+            <h4>Specialty Melts</h4>
+            <ul>
+              <li>
+                Smoked Turkey Melt <br />
+                <p>
+                  Buttered and grilled rye bread, cold cut smoked turkey and
+                  American cheese
+                </p>
+              </li>
+              <li>
+                Reuben Melt <br />
+                <p>
+                  Buttered and grilled rye bread, with a generous portion of
+                  corned beef with saurerkraut and Swiss cheese
+                </p>
+              </li>
+              <li>
+                Corned Beef Melt <br />
+                <p>
+                  Buttered and grilled rye bread, with corned beef and American
+                  cheese
+                </p>
+              </li>
+              <li>
+                Roast Beef Melt <br />
+                <p>
+                  Buttered and grilled rye bread, choice round of beef and
+                  American cheese
+                </p>
+              </li>
+              <li>
+                Tuna Melt <br />
+                <p>
+                  Buttered and grilled rye bread, served with our homemade tuna
+                  and American cheese
+                </p>
+              </li>
+              <li>
+                Chicken Melt <br />
+                <p>
+                  Buttered and grilled rye bread, served with a chicken breast
+                  and American cheese
+                </p>
+              </li>
+            </ul>
+            <img
+              class="food-thumbnail"
+              src=""
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer -->
+  <%- include ('../partials/footer.ejs') %>
+</div>

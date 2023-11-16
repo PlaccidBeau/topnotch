@@ -3,40 +3,8 @@
   rel="stylesheet"
   href="/stylesheets/styles.css"
 />
-<!-- header -->
-<section>
-  <div class="header container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="row">
-          <p>(Logo Beef Burgers)</p>
-          <h5>Top Notch</h5>
-        </div>
-      </div>
-      <div class="col">
-        <p><i class="fa fa-phone"></i>773-445-7218</p>
-        <p>Hours: Mon - Sat, 8am-8pm</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Navbar -->
-<section>
-  <div class="d-flex justify-content-evenly">
-    <div class="btn btn-outline-secondary">
-      <a href="/">Home</a>
-    </div>
-    <div class="btn btn-outline-secondary">
-      <a href="/lunchanddinner">Menu</a>
-    </div>
-    <div class="btn btn-outline-secondary">
-      <a href="">Carryout</a>
-    </div>
-    <div class="btn btn-outline-secondary">
-      <a href="">Order Online</a>
-    </div>
-  </div>
-</section>
+<!-- Header -->
+<%- include ('./partials/header.ejs') %>
 <!-- Image Carousel -->
 <section>
   <div
@@ -223,57 +191,5 @@
     </div>
   </div>
 </section>
-<!-- About & Media Section -->
-<section>
-  <div class="about-&-media container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <h2>Top Notch</h2>
-        <p>
-          <a href="https://maps.app.goo.gl/5dqFaps7eGoZG3qN9">
-            <i
-              class="fa fa-map-marker"
-              aria-hidden="true"
-            ></i>
-            <!-- <i class="fas fa-map-marker-alt"></i> -->
-            2116 W 95th St. Chicago, IL 60643</a
-          >
-        </p>
-        <p>
-          <a href="tel:773-445-7218"><i class="fa fa-phone"></i>773-445-7218</a>
-        </p>
-        <p>Hours: Mon - Sat, 8am-8pm</p>
-      </div>
-      <div class="col">
-        <p><a href="">About us</a></p>
-        <p>
-          <a href="https://www.facebook.com/topnotchbeverly"
-            >Follow Us on Facebook</a
-          >
-        </p>
-        <p>
-          <a
-            href="https://www.yelp.com/biz/top-notch-beef-burgers-chicago?start=20"
-            >Reviews on Yelp</a
-          >
-        </p>
-      </div>
-    </div>
-    <div class="text-center">
-      <!-- Image of the building -->
-      <img
-        src="/images/topnotch-building.jpg"
-        alt=""
-      />
-    </div>
-  </div>
-</section>
-<!-- Footer -->
-<footer class="footer py-2 mt-auto">
-  <div
-    class="container"
-    style="text-align: center"
-  >
-    <span class="text-muted">&copy; 2023 TopNotch BeefBurgers</span>
-  </div>
-</footer>
+<!--Footer -->
+<%- include ('./partials/footer.ejs') %>

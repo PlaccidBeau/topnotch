@@ -1,0 +1,95 @@
+<% layout('layout/boilerplate') -%>
+<link
+  rel="stylesheet"
+  href="/stylesheets/styles.css"
+/>
+<div class="big-box">
+  <!-- Header -->
+  <%- include ('../partials/header.ejs') %>
+  <!-- Menu screen -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><br /></div>
+      <div class="col-3 sidebar rounded">
+        <!-- Navbar -->
+        <%- include ('../partials/navbar.ejs') %>
+      </div>
+      <!-- Menu page -->
+      <div class="col-9 menu-items">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4>Sandwiches</h4>
+          </div>
+          <div class="col-6 text-center">
+            <p>
+              Choice Grade Cube Steak Sandwich <br />
+              On a toasted buttered French roll
+            </p>
+            <br />
+            <p>
+              BBQ Beef Sandwich <br />
+              Choice round of beef cooked in BBQ sauce served on a French roll
+            </p>
+            <br />
+            <p>
+              Beef Au Jus <br />
+              Choice round of beef served on a French roll with au jus
+            </p>
+            <br />
+            <p>
+              Grilled Cheese <br />
+              With pickles on white bread <br />
+            </p>
+            <ul>
+              <li>add ham</li>
+              <li>add bacon</li>
+              <li>add tomato</li>
+            </ul>
+            <br />
+            <p>
+              BLT <br />
+              With pikles on white toast
+            </p>
+            <br />
+          </div>
+          <div class="col-6 text-center">
+            <p>
+              Home Made Tuna Sandwich <br />
+              Homemade tuna served on white toast with lettuce
+            </p>
+            <br />
+            <p>
+              Ham Sandwich <br />
+              Cold cut ham with lettuce, tomato, and mayo served on French roll
+            </p>
+            <br />
+            <p>
+              Smoked Turkey Sandwich <br />
+              Cold cut turkey with lettuce, tomato, and mayo on French roll
+            </p>
+            <br />
+            <p>
+              Catfish Sandwich <br />
+              Grilled catfish with lettucee, pickle, and tartar sauce on a
+              Frnech roll
+            </p>
+            <br />
+            <p>
+              Corn Beef Sandwich <br />
+              Corn Bee with pickles, served hot or cold, with your choice of
+              bread
+            </p>
+            <br />
+            <p>
+              Club Sandwich w. Fries <br />
+              Bacon, lettuce, tomato, ham, and mayo <br />
+              substitute smoked turkey ----$1.82 extra
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer -->
+  <%- include ('../partials/footer.ejs') %>
+</div>
