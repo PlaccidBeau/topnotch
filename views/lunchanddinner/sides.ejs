@@ -1,52 +1,27 @@
 <% layout('layout/boilerplate') -%>
-<link
-  rel="stylesheet"
-  href="/stylesheets/styles.css"
-/>
-<div class="big-box">
-  <!-- Header -->
-  <%- include ('../partials/header.ejs') %>
-  <!-- Menu screen -->
-  <div class="container">
-    <div class="row">
-      <div class="col-12"><br /></div>
-      <div class="col-3 sidebar rounded">
-        <!-- Navbar -->
-        <%- include ('../partials/navbar.ejs') %>
-      </div>
-      <!-- Menu page -->
-      <div class="col-9 menu-items">
-        <div class="row">
-          <div class="col-6 text-center">
-            <h4>Sides</h4>
-            <ul>
-              <li>French Fries</li>
-              <li>Cheese Cup</li>
-              <li>2 Strips of Bacon</li>
-              <li>Grilled Mushrooms</li>
-              <li>Cole Slaw</li>
-            </ul>
-            <img
-              class="food-thumbnail"
-              src=""
-              alt=""
-            />
-          </div>
-          <div class="col-6 text-center">
-            <h4>Dessert</h4>
-            <ul>
-              <li>Ice cream</li>
-            </ul>
-            <img
-              class="food-thumbnail"
-              src=""
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Footer -->
-  <%- include ('../partials/footer.ejs') %>
+<div class="col-6 text-align">
+  <h4>Sides</h4>
+  <ul>
+    <li>French Fries</li>
+    <li>Cheese Cup</li>
+    <li>2 Strips of Bacon</li>
+    <li>Grilled Mushrooms</li>
+    <li>Cole Slaw</li>
+  </ul>
+  <img
+    class="food-thumbnail"
+    src=""
+    alt=""
+  />
+</div>
+<div class="col-6 text-align">
+  <h4>Dessert</h4>
+  <ul>
+    <li>Ice cream</li>
+  </ul>
+  <img
+    class="food-thumbnail"
+    src=""
+    alt=""
+  />
 </div>

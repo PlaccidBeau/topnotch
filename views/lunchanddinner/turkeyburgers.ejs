@@ -1,109 +1,81 @@
 <% layout('layout/boilerplate') -%>
-<link
-  rel="stylesheet"
-  href="/stylesheets/styles.css"
-/>
-<div class="big-box">
-  <!-- Header -->
-  <%- include ('../partials/header.ejs') %>
-  <!-- Menu screen -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12"><br /></div>
-      <div class="col-3 sidebar rounded">
-        <!-- Navbar -->
-        <%- include ('../partials/navbar.ejs') %>
-      </div>
-      <!-- Menu page -->
-      <div class="col-9 menu-items">
-        <div class="row">
-          <!-- Turkey Burger -->
-          <div class="col-12">
-            <h4>Turkey Burgers</h4>
-            <p>
-              All of the beef burgers below are our famous Usda choice ground
-              round right off the bone steak burgers. We offer a choice of sharp
-              American, Swiss, Monterey Jack, Jalapeno Jack, and Mozzerela
-              cheese. Unless specified, we use sharp American. Basic and deluxe
-              burgers come with lettuce, tomato, mayo, pickles, and your choice
-              of grilled or raw onion
-            </p>
-          </div>
-          <div class="col-6">
-            <h4>Basic Turkey Burgers</h4>
-            <ul>
-              <li>
-                1/4 lb. $7.09 <br />
-                with cheese $8.04
-              </li>
-              <li>
-                1/2 lb. $12.32 <br />
-                with cheese $13.72
-              </li>
-              <li>
-                3/4 lb. $14.17 <br />
-                with cheese $15.64
-              </li>
-            </ul>
-            <img
-              class="food-thumbnail"
-              src="/images/topnotch-1.4turkey.jpg"
-              alt=""
-            />
-          </div>
-          <div class="col-6">
-            <h4>Deluxe Turkey Burgers</h4>
-            <ul>
-              <li>
-                1/4 lb. $9.95 <br />
-                with cheese $10.83
-              </li>
-              <li>
-                1/2 lb. $13.49 <br />
-                with cheese $14.90
-              </li>
-              <li>
-                3/4 lb. $16.31 <br />
-                with cheese $17.94
-              </li>
-            </ul>
-            <img
-              class="food-thumbnail"
-              src="/images/topnotch-turkey.jpg"
-              alt=""
-            />
-          </div>
-          <!-- Special -->
-          <div class="col-12 text-center">
-            <h4>Special 1/2 lb. beefburgers</h4>
-          </div>
-          <div class="col-12">
-            <h6>Western</h6>
-            <p>
-              Three slices of your choice cheese, three strips of bacon, grilled
-              green pepper and BBQ sauce, choice of grilled or raw onion, served
-              with fries
-            </p>
-          </div>
-          <div class="col-12">
-            <h6>Mexican</h6>
-            <p>
-              Jalepeno cheese, salsa, guacamole, green pepper and choice of
-              grilled or raw onion, served with fries
-            </p>
-          </div>
-          <div class="col-12">
-            <h6>Italian</h6>
-            <p>
-              Mozzerela cheese, marinara sauce, green pepper and choice of
-              grilled or raw onion, served with fries
-            </p>
-          </div>
-          <!--  -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Footer -->
-  <%- include ('../partials/footer.ejs') %>
+<!-- Turkey Burger -->
+<div class="col-12 text-align">
+  <h4>Turkey Burgers</h4>
+  <p>
+    All of the beef burgers below are our famous Usda choice ground round right
+    off the bone steak burgers. We offer a choice of sharp American, Swiss,
+    Monterey Jack, Jalapeno Jack, and Mozzerela cheese. Unless specified, we use
+    sharp American. Basic and deluxe burgers come with lettuce, tomato, mayo,
+    pickles, and your choice of grilled or raw onion
+  </p>
+</div>
+<div class="col-6">
+  <h4>Basic Turkey Burgers</h4>
+  <ul>
+    <li>
+      1/4 lb. $7.09 <br />
+      with cheese $8.04
+    </li>
+    <li>
+      1/2 lb. $12.32 <br />
+      with cheese $13.72
+    </li>
+    <li>
+      3/4 lb. $14.17 <br />
+      with cheese $15.64
+    </li>
+  </ul>
+  <img
+    class="food-thumbnail"
+    src="/images/topnotch-1.4turkey.jpg"
+    alt=""
+  />
+</div>
+<div class="col-6">
+  <h4>Deluxe Turkey Burgers</h4>
+  <ul>
+    <li>
+      1/4 lb. $9.95 <br />
+      with cheese $10.83
+    </li>
+    <li>
+      1/2 lb. $13.49 <br />
+      with cheese $14.90
+    </li>
+    <li>
+      3/4 lb. $16.31 <br />
+      with cheese $17.94
+    </li>
+  </ul>
+  <img
+    class="food-thumbnail"
+    src="/images/topnotch-turkey.jpg"
+    alt=""
+  />
+</div>
+<!-- Special -->
+<div class="col-12 text-align">
+  <h4>Special 1/2 lb. beefburgers</h4>
+</div>
+<div class="col-12">
+  <h6>Western</h6>
+  <p>
+    Three slices of your choice cheese, three strips of bacon, grilled green
+    pepper and BBQ sauce, choice of grilled or raw onion, served with fries
+  </p>
+</div>
+<div class="col-12">
+  <h6>Mexican</h6>
+  <p>
+    Jalepeno cheese, salsa, guacamole, green pepper and choice of grilled or raw
+    onion, served with fries
+  </p>
+</div>
+<div class="col-12">
+  <h6>Italian</h6>
+  <p>
+    Mozzerela cheese, marinara sauce, green pepper and choice of grilled or raw
+    onion, served with fries
+  </p>
 </div>

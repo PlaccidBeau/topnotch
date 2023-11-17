@@ -1,195 +1,230 @@
-<% layout('layout/boilerplate') -%>
-<link
-  rel="stylesheet"
-  href="/stylesheets/styles.css"
-/>
-<!-- Header -->
-<%- include ('./partials/header.ejs') %>
-<!-- Image Carousel -->
-<section>
-  <div
-    id="carouselExample"
-    class="carousel slide"
-  >
-    <!-- data-bs-ride="carousel" -->
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active carousel-img-container">
-        <img
-          src="/images/topnotch-img1.jpg"
-          class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          src="/images/topnotch-img2.jpg"
-          class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          src="/images/topnotch-img3.jpg"
-          class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
-        />
-      </div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExample"
-      data-bs-slide="prev"
-    >
-      <span
-        class="carousel-control-prev-icon"
-        aria-hidden="true"
-      ></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExample"
-      data-bs-slide="next"
-    >
-      <span
-        class="carousel-control-next-icon"
-        aria-hidden="true"
-      ></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-<!-- Online Ordering Panel -->
-<section>
-  <!-- <div class="online-ordering text-center"> -->
-  <section>
-    <div class="online-ordering text-center">
-      <h3><a href="">Online Ordering Available</a></h3>
-    </div>
-  </section>
-  <section>
-    <div class="chicagos-best container col body white">
-      <div class="row">
-        <div class="col text-center">
-          <div class="order-online">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube-nocookie.com/embed/dr3_tvo4Wu4?si=whqZUwykkh9gFxfF"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/styles.css"
+    />
+    <title>Top Notch Beef Burgers</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- Header -->
+      <%- include ('./partials/header.ejs') %>
+      <div class="big-box">
+        <!-- Image Carousel -->
+        <section>
+          <div
+            id="carouselExample"
+            class="carousel slide"
+          >
+            <!-- data-bs-ride="carousel" -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-img-container">
+                <img
+                  src="/images/home-western.jpg"
+                  class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/home-deluxe.jpg"
+                  class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/home-melt.jpg"
+                  class="d-block w-100 vh-100 vw-100 my-image img-fluid carousel-img"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
-        <div class="chicagos-best-description col text-center">
-          <h4>Chicago's Best 300th</h4>
-          <p>
-            Marley Kayden fromWGN's Chicago's Best and 'Chicago-lebrity' Graham
-            Elliot visit Top Notch.
-          </p>
-          <p>
-            Watch Marley Kayden and Graham Elliot as they uncover how Top Notch
-            burgers are made
-          </p>
-        </div>
+        </section>
+        <!-- Online Ordering Panel -->
+        <section>
+          <section>
+            <div class="online-ordering text-align">
+              <h3><a href="">Online Ordering Available</a></h3>
+            </div>
+          </section>
+          <section>
+            <div
+              class="chicagos-best container d-flex justify-content-between col body white"
+            >
+              <div class="row">
+                <div class="col text-align">
+                  <div class="order-online">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube-nocookie.com/embed/dr3_tvo4Wu4?si=whqZUwykkh9gFxfF"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="chicagos-best-description col text-align">
+                  <h4>Chicago's Best 300th</h4>
+                  <p>
+                    Marley Kayden fromWGN's Chicago's Best and 'Chicago-lebrity'
+                    Graham Elliot visit Top Notch.
+                  </p>
+                  <p>
+                    Watch Marley Kayden and Graham Elliot as they uncover how
+                    Top Notch burgers are made
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <h3 class="text-align">Popular Meals</h3>
+          <div
+            class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 mb-4 mt-2 justify-content-evenly"
+          >
+            <div class="">
+              <h5 class="card-title text-align">Deluxe Beef Burger</h5>
+              <div class="card-img text-align">
+                <img
+                  src="/images/topnotch-beefdeluxe.jpg"
+                  class="img-fluid box"
+                  alt=""
+                />
+              </div>
+              <div class="card-body text-align main-text">
+                <p class="card-text">
+                  Fresh never frozen beef burger with the choice of sharp
+                  american, swiss, monteney Jack, Jalapeno Jack or Mozzerela
+                  cheese. Along with lettuce, tomato, mayo, pickle and your
+                  choice of grilled or raw onions
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <h5 class="card-title text-align">Deluxe Turkey Burger</h5>
+              <div class="card-img text-align">
+                <img
+                  src="/images/topnotch-turkey.jpg"
+                  class="img-fluid box"
+                  alt=""
+                />
+              </div>
+              <div class="card-body text-align main-text">
+                <p class="card-text">
+                  Our delicious turkey burgers are seasoned with our own blend
+                  of seasoning. With your choice of sharp american, swiss,
+                  monteney Jack, Jalapeno Jack or Mozzerela cheese. Along with
+                  lettuce, tomato, mayo, pickle and your choice of grilled or
+                  raw onions
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <h5 class="card-title text-align">Reuben melt</h5>
+              <div class="card-img text-align">
+                <img
+                  src="/images/topnotch-reuben.jpg"
+                  class="img-fluid box"
+                  alt=""
+                />
+              </div>
+              <div class="card-body text-align main-text">
+                <p class="card-text">
+                  Buttered and grilled rye bread with a generous portion of
+                  corned beed with saurerkraut and swiss cheese
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <h5 class="card-title text-align">Patty Melt</h5>
+              <div class="card-img text-align">
+                <img
+                  src="/images/topnotch-pattymelt.jpg"
+                  class="img-fluid box"
+                  alt=""
+                />
+              </div>
+              <div class="card-body text-align main-text">
+                <p class="card-text">
+                  Buttery-rich beef patty on a grilled rye bread. Comes with
+                  grilled onions, and American cheese
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
-  </section>
-  <h3 class="text-center">Popular Meals</h3>
-  <div
-    class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 mb-4 mt-2 justify-content-evenly"
-  >
-    <div class="">
-      <h5 class="card-title text-center">Deluxe Beef Burger</h5>
-      <div class="card-img text-center">
-        <img
-          src="/images/topnotch-beefdeluxe.jpg"
-          class="img-fluid box"
-          alt=""
-        />
-      </div>
-      <div class="card-body text-center main-text">
-        <p class="card-text">
-          Fresh never frozen beef burger with the choice of sharp american,
-          swiss, monteney Jack, Jalapeno Jack or Mozzerela cheese. Along with
-          lettuce, tomato, mayo, pickle and your choice of grilled or raw onions
-        </p>
-      </div>
-    </div>
-    <div class="">
-      <h5 class="card-title text-center">Deluxe Turkey Burger</h5>
-      <div class="card-img text-center">
-        <img
-          src="/images/topnotch-turkey.jpg"
-          class="img-fluid box"
-          alt=""
-        />
-      </div>
-      <div class="card-body text-center main-text">
-        <p class="card-text">
-          Our delicious turkey burgers are seasoned with our own blend of
-          seasoning. With your choice of sharp american, swiss, monteney Jack,
-          Jalapeno Jack or Mozzerela cheese. Along with lettuce, tomato, mayo,
-          pickle and your choice of grilled or raw onions
-        </p>
-      </div>
-    </div>
-    <div class="">
-      <h5 class="card-title text-center">Reuben melt</h5>
-      <div class="card-img text-center">
-        <img
-          src="/images/topnotch-reuben.jpg"
-          class="img-fluid box"
-          alt=""
-        />
-      </div>
-      <div class="card-body text-center main-text">
-        <p class="card-text">
-          Buttered and grilled rye bread with a generous portion of corned beed
-          with saurerkraut and swiss cheese
-        </p>
-      </div>
-    </div>
-    <div class="">
-      <h5 class="card-title text-center">Patty Melt</h5>
-      <div class="card-img text-center">
-        <img
-          src="/images/topnotch-pattymelt.jpg"
-          class="img-fluid box"
-          alt=""
-        />
-      </div>
-      <div class="card-body text-center main-text">
-        <p class="card-text">
-          Buttery-rich beef patty on a grilled rye bread. Comes with grilled
-          onions, and American cheese
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Footer -->
-<%- include ('./partials/footer.ejs') %>
+      <!--Footer -->
+      <%- include ('./partials/footer.ejs') %>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+  </body>
+</html>

@@ -16,10 +16,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/styles.css"
+    />
     <title>Top Notch Beef Burgers</title>
   </head>
   <body>
-    <main class="vh-100"><%- body %></main>
+    <main class="main">
+      <!-- Header -->
+      <%- include ('../partials/header.ejs') %>
+      <!-- Menu screen -->
+      <div class="big-box mt-3">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- <div class="col-12"><br /></div> -->
+            <div class="col-3 sidebar rounded">
+              <!-- Navbar -->
+              <%- include ('../partials/navbar.ejs') %>
+            </div>
+            <!-- Menu page -->
+            <div class="col-9 menu-items card">
+              <div class="row"><%- body %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer -->
+      <%- include ('../partials/footer.ejs') %>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

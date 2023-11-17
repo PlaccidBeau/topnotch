@@ -2,24 +2,29 @@
   width: 600px;
   height: 400px;
 }
-
+.main {
+  background-color: #bb9457;
+}
+.chicagos-best {
+  margin: 0 0;
+}
 .big-box {
   margin: 0 auto;
-  max-width: 1144px;
+  max-width: 1240px;
   padding: 0 30px;
 }
 .big-header {
   margin: 0 auto;
-  max-width: 1144px;
+  max-width: 1240px;
   padding: 0 40px;
 }
 .big-footer {
   margin: 0 auto;
-  max-width: 1144px;
+  max-width: 1240px;
   padding-right: 40px;
 }
 .header {
-  max-width: 1144px;
+  max-width: 1240px;
   padding-left: 30px;
   padding-right: 15px;
 }
@@ -58,11 +63,36 @@
 .big-button :hover {
   background-color: yellow;
 }
+.big-button {
+  background-color: #dc0428;
+}
+.header-button {
+  background-color: #dc0428;
+}
+.header-tag {
+  background-color: #dc0428;
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+}
+.big-button > a {
+  border: 1px solid black;
+  padding-left: 15px;
+  color: white;
+}
+.header-button :hover {
+  background-color: white;
+  color: #dc0428;
+  text-decoration: none;
+}
+
+.link-button > a {
+  border: 1px solid black;
+  color: white;
+}
 .navbar-brand {
   text-align: start;
   min-width: 100%;
   font-size: 16px;
   text-wrap: wrap;
-  /* min-width: 120px;
-  max-width: 200px; */
 }

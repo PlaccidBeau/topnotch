@@ -1,94 +1,66 @@
 <% layout('layout/boilerplate') -%>
-<link
-  rel="stylesheet"
-  href="/stylesheets/styles.css"
-/>
-<div class="big-box">
-  <!-- Header -->
-  <%- include ('../partials/header.ejs') %>
-  <!-- Menu screen -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12"><br /></div>
-      <div class="col-3 sidebar rounded">
-        <!-- Navbar -->
-        <%- include ('../partials/navbar.ejs') %>
-      </div>
-      <!-- Menu page -->
-      <div class="col-9 menu-items">
-        <div class="row">
-          <div class="col-6 text-center">
-            <h4>Milk & Juice</h4>
-          </div>
-          <div class="col-6 text-center">
-            <h4>Soft Drinks</h4>
-          </div>
-          <div class="col-6 text-align">
-            <p>
-              White/Chocolate Milk <small>small</small> $2.19
-              <small>large</small>
-              $3.58
-            </p>
-            <p>
-              Orange Juice <small>small</small> $2.19 <small>large</small>
-              $3.58
-            </p>
-            <p>
-              Tomato Juice <small>small</small> $2.19 <small>large</small>
-              $3.58
-            </p>
-            <p>
-              Cranberry Juice <small>small</small> $2.19
-              <small>large</small>
-              $3.58
-            </p>
-            <p>
-              Apple Juice <small>small</small> $2.19 <small>large</small>
-              $3.58
-            </p>
-            <div class="text-center">
-              <h4>Hot</h4>
-              <p>Coffee-------------------------$3.13</p>
-              <p>Hot Tea------------------------$3.13</p>
-              <p>Hot Chocolate-----------------43.48</p>
-            </div>
-          </div>
-          <div class="col-6 text-align">
-            <p>
-              Pepsi, Diet Pepsi, Mt. Dew, Mug Root Beer, Orange Crush, Dr.
-              Pepper, Sierra Mist, Pink Lemonade, Fruit Punch, Raspberry Tea,
-              Unsweetened Tea
-              <small>$2.73</small>
-            </p>
-            <div class="text-center">
-              <ul>
-                <li>Stewart Bottle Soda ------<small>$2.46</small></li>
-                <li>Mystic/Snapple -----------<small>$2.75</small></li>
-                <li>Can Soda ------------------<small>$1.34</small></li>
-              </ul>
-            </div>
-          </div>
-          <h4 class="text-center">Milkshakes</h4>
-          <div class="col-6 text-center">
-            <h6>Vanilla, Chocolate, Strawberry, Banana, and Root Beer</h6>
-            <ul>
-              <li>Large 24 oz.</li>
-              <li>Medium 16 oz.</li>
-              <li>Small 12 oz.</li>
-            </ul>
-          </div>
-          <div class="col-6 text-center">
-            <h6>Oreo Cookie Shake</h6>
-            <ul>
-              <li>Large 24 oz.</li>
-              <li>Medium 16 oz.</li>
-              <li>Small 12 oz.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+<div class="col-6 text-align">
+  <h4>Milk & Juice</h4>
+  <p>
+    White/Chocolate Milk <small>small</small> $2.19
+    <small>large</small>
+    $3.58
+  </p>
+  <p>
+    Orange Juice <small>small</small> $2.19 <small>large</small>
+    $3.58
+  </p>
+  <p>
+    Tomato Juice <small>small</small> $2.19 <small>large</small>
+    $3.58
+  </p>
+  <p>
+    Cranberry Juice <small>small</small> $2.19
+    <small>large</small>
+    $3.58
+  </p>
+  <p>
+    Apple Juice <small>small</small> $2.19 <small>large</small>
+    $3.58
+  </p>
+</div>
+<div class="col-6 text-align">
+  <h4>Soft Drinks</h4>
+  <p>
+    Pepsi, Diet Pepsi, Mt. Dew, Mug Root Beer, Orange Crush, Dr. Pepper, Sierra
+    Mist, Pink Lemonade, Fruit Punch, Raspberry Tea, Unsweetened Tea
+    <small>$2.73</small>
+  </p>
+  <ul>
+    <li>Stewart Bottle Soda ------<small>$2.46</small></li>
+    <li>Mystic/Snapple -----------<small>$2.75</small></li>
+    <li>Can Soda ------------------<small>$1.34</small></li>
+  </ul>
+</div>
+<div class="col-6 text-align">
+  <h4>Hot</h4>
+  <p>Coffee-------------------------$3.13</p>
+  <p>Hot Tea------------------------$3.13</p>
+  <p>Hot Chocolate-----------------43.48</p>
+</div>
+<div class="col-6 text-align">
+  <h4 class="text-align">Milkshakes</h4>
+  <div class="row">
+    <div class="col-6">
+      <h6>Vanilla, Chocolate, Strawberry, Banana, and Root Beer</h6>
+      <ul>
+        <li>Large 24 oz.</li>
+        <li>Medium 16 oz.</li>
+        <li>Small 12 oz.</li>
+      </ul>
     </div>
-    <!--Footer -->
-    <%- include ('../partials/footer.ejs') %>
+    <div class="col-6">
+      <h6>Oreo Cookie Shake</h6>
+      <ul>
+        <li>Large 24 oz.</li>
+        <li>Medium 16 oz.</li>
+        <li>Small 12 oz.</li>
+      </ul>
+    </div>
   </div>
 </div>

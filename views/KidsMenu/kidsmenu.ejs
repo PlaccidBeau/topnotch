@@ -1,58 +1,30 @@
 <% layout('layout/boilerplate') -%>
-<link
-  rel="stylesheet"
-  href="/stylesheets/styles.css"
-/>
-<div class="big-box">
-  <!-- Header -->
-  <%- include ('../partials/header.ejs') %>
-  <!-- Menu screen -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12"><br /></div>
-      <div class="col-3 sidebar rounded">
-        <!-- Navbar -->
-        <%- include ('../partials/navbar.ejs') %>
-      </div>
-      <!-- Menu page -->
-      <div class="col-9 menu-items">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h4>Title</h4>
-            <p>Description</p>
-          </div>
-          <div class="col-6 text-align">
-            <p>Beefburger</p>
-            <p>Turkey Burger</p>
-            <p>Cheeseburger</p>
-            <p>Turkey Cheeseburger</p>
-          </div>
-          <div class="col-6">
-            <p>Grilled Cheese</p>
-            <p>Hotdog</p>
-            <p>Cheese DDog</p>
-            <p>Chicken Nuggets/Tenders</p>
-          </div>
-          <div class="col-6">
-            <img
-              class="food-image text-center text-center"
-              src="/images/kidsmeal.jpg"
-              alt=""
-            />
-            <p class="">Kids Cheese Burger</p>
-          </div>
-          <div class="col-6 text-center text-center">
-            <img
-              class="food-image"
-              src="/images/kidsmenu-2.jpg"
-              alt=""
-            />
-            <p class="">Kids Hot Dog</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Footer -->
-  <%- include ('../partials/footer.ejs') %>
+<h4>Kids Menu</h4>
+<div class="col-6 text-align">
+  <p>Beefburger</p>
+  <p>Turkey Burger</p>
+  <p>Cheeseburger</p>
+  <p>Turkey Cheeseburger</p>
+</div>
+<div class="col-6">
+  <p>Grilled Cheese</p>
+  <p>Hotdog</p>
+  <p>Cheese DDog</p>
+  <p>Chicken Nuggets/Tenders</p>
+</div>
+<div class="col-6">
+  <img
+    class="food-image text-center text-align"
+    src="/images/kidsmeal.jpg"
+    alt=""
+  />
+  <p class="">Kids Cheese Burger</p>
+</div>
+<div class="col-6 text-align">
+  <img
+    class="food-image"
+    src="/images/kidsmenu-2.jpg"
+    alt=""
+  />
+  <p class="">Kids Hot Dog</p>
 </div>

@@ -28,6 +28,15 @@ app.use(morgan("tiny"));
 app.get("/", (req, res) => {
   res.render("home");
 });
+app.get("/carryout", (req, res) => {
+  res.render("carryout");
+});
+app.get("/orderonline", (req, res) => {
+  res.render("orderonline");
+});
+app.get("/about", (req, res) => {
+  res.render("about");
+});
 // Breakfast
 app.get("/breakfast/meals", (req, res) => {
   res.render("breakfast/meals");
