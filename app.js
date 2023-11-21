@@ -53,20 +53,15 @@ app.get("/breakfast/sandwiches", (req, res) => {
 
 // lunch and dinner
 app.get("/lunch&dinner/beefburgers", (req, res) => {
-  res.render("lunchanddinner/lunchanddinner");
+  res.render("lunchanddinner/beefburgers");
 });
 app.get("/lunch&dinner/appetizers", (req, res) => {
   res.render("lunchanddinner/appetizers");
 });
-app.get("/lunch&dinner/soup", (req, res) => {
-  res.render("lunchanddinner/soup");
+app.get("/lunch&dinner/soup&salads", (req, res) => {
+  res.render("lunchanddinner/soupandsalads");
 });
-app.get("/lunch&dinner/salads", (req, res) => {
-  res.render("lunchanddinner/salads");
-});
-app.get("/lunch&dinner/chicken", (req, res) => {
-  res.render("lunchanddinner/chicken");
-});
+
 app.get("/lunch&dinner/sandwiches", (req, res) => {
   res.render("lunchanddinner/sandwiches");
 });

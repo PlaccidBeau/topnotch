@@ -5,6 +5,20 @@
 .main {
   background-color: #bb9457;
 }
+.logo-text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.carousel-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  box-shadow: 0 0 0.5rem rgba(0 0 0 / 0.15);
+}
+ul > li {
+  list-style: none;
+}
 .chicagos-best {
   margin: 0 0;
 }
@@ -60,11 +74,15 @@
   height: 200px;
 }
 
-.big-button :hover {
-  background-color: yellow;
-}
 .big-button {
   background-color: #dc0428;
+}
+.big-button > a {
+  min-width: 100%;
+}
+.big-button :hover {
+  background-color: white;
+  color: #dc0428;
 }
 .header-button {
   background-color: #dc0428;
@@ -74,9 +92,11 @@
   margin: 0 5px;
   color: white;
   text-decoration: none;
+  font-size: 30px;
 }
 .big-button > a {
   border: 1px solid black;
+  font-size: 24px;
   padding-left: 15px;
   color: white;
 }
@@ -95,4 +115,34 @@
   min-width: 100%;
   font-size: 16px;
   text-wrap: wrap;
+}
+.aboutandmedia {
+  background-color: #dc0428;
+}
+.footer-tag {
+  text-decoration: none;
+  color: white;
+}
+.hours {
+  text-decoration: none;
+  color: white;
+}
+.sidebar-disclaimer {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.footer-tag:hover {
+  text-decoration: underline;
+}
+.footer-img {
+  height: 400px;
+  width: 100%;
+}
+.box {
+  height: 50vh;
+  width: 100vh;
+}
+.name {
+  font-weight: bold;
 }
