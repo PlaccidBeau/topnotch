@@ -1,0 +1,12 @@
+.border-card {
+  border: 1px solid black;
+  background-color: white;
+}
+.img {
+  height: 80vh;
+  width: 100%;
+}
+.top-notch {
+  font-size: 28px;
+  font-weight: bold;
+}

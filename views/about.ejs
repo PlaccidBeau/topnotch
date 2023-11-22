@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/about.css"
+    />
+    <title>Top Notch Beef Burgers</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- Header -->
+      <%- include ('./partials/header.ejs') %>
+      <div class="big-box">
+        <div class="row rounded mt-2 border-card">
+          <div class="col-md-8 order-md-2 text-center">
+            <img
+              class="object-fit-fill img"
+              src="/images/topnotch-about-img.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 order-md-1">
+            <div class="row">
+              <div class="col-sm-6 col-md-12">
+                <span class="top-notch">Top Notch</span>
+                <p>2116 W 95th St.</p>
+                <p>Chicago, IL 60643</p>
+                <p>
+                  <a href="https://maps.app.goo.gl/5dqFaps7eGoZG3qN9"
+                    >Maps & Directions</a
+                  >
+                </p>
+                <p>(773) 445-7218</p>
+                <p>Hours: Daily, 8am - 2pm</p>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <ul>
+                  <li>Eat-in, Take-out</li>
+                  <li>Free Wi-Fi</li>
+                  <li>Kid's Menu Available</li>
+                </ul>
+                <p>
+                  Located next to Chicago Southtown Health Foods and near the
+                  Evergreen Plaza. We are open Monday through Saturday between
+                  8am to 8pm for casual walk-in dining and convenient carryouts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer -->
+      <%- include ('./partials/footer.ejs') %>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+  </body>
+</html>

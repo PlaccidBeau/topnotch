@@ -61,7 +61,6 @@ app.get("/lunch&dinner/appetizers", (req, res) => {
 app.get("/lunch&dinner/soup&salads", (req, res) => {
   res.render("lunchanddinner/soupandsalads");
 });
-
 app.get("/lunch&dinner/sandwiches", (req, res) => {
   res.render("lunchanddinner/sandwiches");
 });

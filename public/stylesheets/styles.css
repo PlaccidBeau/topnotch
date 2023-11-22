@@ -9,6 +9,10 @@
   color: white;
   font-size: 40px;
   font-weight: bold;
+  position: sticky;
+}
+.logo-img {
+  clip-path: circle();
 }
 .carousel-img {
   width: 100%;
@@ -42,13 +46,6 @@ ul > li {
   padding-left: 30px;
   padding-right: 15px;
 }
-.logo-img {
-  clip-path: circle();
-}
-/* .my-image {
-  object-fit: cover;
-  object-position: center;
-} */
 
 .carousel-img-container {
   background-repeat: no-repeat;
