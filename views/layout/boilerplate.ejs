@@ -30,14 +30,13 @@
       <div class="big-box mt-3">
         <div class="container-fluid">
           <div class="row">
-            <!-- <div class="col-12"><br /></div> -->
-            <div class="col-3 sidebar rounded">
+            <!-- Menu page -->
+            <div class="col-md-9 order-md-2 menu-items card">
+              <div class="row"><%- body %></div>
+            </div>
+            <div class="col-md-3 order-md-1 sidebar rounded">
               <!-- Navbar -->
               <%- include ('../partials/navbar.ejs') %>
-            </div>
-            <!-- Menu page -->
-            <div class="col-9 menu-items card">
-              <div class="row"><%- body %></div>
             </div>
           </div>
         </div>

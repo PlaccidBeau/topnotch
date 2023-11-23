@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/styles.css"
+    />
+    <title>Top Notch Beef Burgers</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- Header -->
+      <%- include ('./partials/header.ejs') %>
+      <div
+        class="big-box rounded mt-4"
+        style="background-color: white"
+      >
+        <div class="row text-center">
+          <span class="title">Order Online</span>
+          <p>
+            Use your prefered delivery service and we'll do our best to provide
+            our Top Notch at the comfort of your home
+          </p>
+          <div class="row-cols-6 d-flex justify-content-around mb-4">
+            <a
+              href="https://www.ubereats.com/store/top-notch-beef-burgers/5Ea6UR5UQ0SIXYKGgGNYyA?irgwc=1&im_rewards=1&utm_campaign=CM2087627-affiliates-impactradius_1_-99_US-National_c_all_acq_cpa_en_Bing%20Rebates%20by%20Microsoft_click-VhA3ILy86xyPUbu0SsW%3A0xNzUkFV3uRGlwKkSc0&utm_term=VhA3ILy86xyPUbu0SsW%3A0xNzUkFV3uRGlwKkSc0&adg_id=1505028&cid=2003851&utm_source=affiliate-ir&partner=Bing%20Rebates%20by%20Microsoft&utm_medium=affiliates"
+              type="button"
+              class="btn btn-success"
+              >Order with UberEats</a
+            >
+            <a
+              href="https://www.grubhub.com/restaurant/top-notch-beef-burgers-2116-w-95th-st-chicago/1246064"
+              type="button"
+              class="btn btn-danger"
+              >Order with GrubHub</a
+            >
+          </div>
+          <!-- <img
+            class="col-12"
+            src="images/topnotch-orderonline.jpg"
+            alt=""
+          /> -->
+        </div>
+      </div>
+      <!--Footer -->
+      <%- include ('./partials/footer.ejs') %>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+  </body>
+</html>

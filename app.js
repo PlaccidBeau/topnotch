@@ -32,7 +32,7 @@ app.get("/carryout", (req, res) => {
   res.render("carryout");
 });
 app.get("/orderonline", (req, res) => {
-  res.render("orderonline");
+  res.render("order-online");
 });
 app.get("/about", (req, res) => {
   res.render("about");
