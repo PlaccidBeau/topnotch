@@ -1,9 +1,11 @@
 .border-card {
-  border: 1px solid black;
   background-color: white;
 }
 .img {
   height: 80vh;
+  height: 80svh;
+  object-fit: fill;
+  aspect-ratio: 1/1;
   width: 100%;
 }
 .top-notch {
