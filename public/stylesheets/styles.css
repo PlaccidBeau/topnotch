@@ -9,6 +9,8 @@
 }
 .logo-img {
   clip-path: circle();
+  height: 100px;
+  width: auto;
 }
 .carousel-img {
   /* width: 100%; */
@@ -17,6 +19,15 @@
   height: 75vh;
   height: 75svh;
   aspect-ratio: 1/1;
+  object-fit: cover;
+  box-shadow: 0 0 0.5rem rgba(0 0 0 / 0.15);
+}
+.carousel-img-sp {
+  /* width: 100%; */
+  width: 100vw;
+  width: 100svw;
+  height: 75vh;
+  height: 75svh;
   object-fit: cover;
   box-shadow: 0 0 0.5rem rgba(0 0 0 / 0.15);
 }
@@ -70,7 +81,9 @@ ul > li {
   width: 200px;
   height: 200px;
 }
-
+.bg-red {
+  background-color: #dc0428;
+}
 .big-button {
   background-color: #dc0428;
 }
@@ -101,7 +114,7 @@ ul > li {
 .header-button :hover {
   background-color: white;
   color: #dc0428;
-  font-size: 26px;
+  /* font-size: 26px; */
   text-decoration: none;
 }
 .link-button > a {
@@ -155,6 +168,11 @@ ul > li {
   font-weight: 600;
   color: #bc6c25;
 }
+@media (max-width: 955px) {
+  .big-button > a {
+    font-size: large;
+  }
+}
 @media (max-width: 585px) {
   .header-tag {
     font-size: large;
@@ -164,4 +182,35 @@ ul > li {
   .header-tag {
     font-size: 12px;
   }
+}
+.heading {
+  width: 33%;
+}
+@media (max-width: 991px) {
+  .middle-header {
+    display: none;
+  }
+  .heading {
+    width: 50%;
+  }
+}
+@media (max-width: 445px) {
+  .right-header {
+    display: none;
+  }
+  .heading {
+    width: auto;
+  }
+}
+/* @media (max-width: 460px) {
+  .logo-img {
+    height: 80px;
+  }
+  .logo-text {
+    font-size: ;
+  }
+} */
+
+.header-celebrate {
+  color: white;
 }
